@@ -9,3 +9,5 @@ add_executable(labyrinth labyrinth.cpp)
 
 
 add_executable(buildingRoads  buildingRoads.cpp)
+
+add_executable(messageRoute messageRoute.cpp)
