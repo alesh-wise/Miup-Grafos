@@ -1,9 +1,19 @@
 //
-// Created by alexa on 20/09/2026.
+// Created by alesh-wise on 20/09/2026.
 //
+/**
+ *@file countingRooms.cpp
+ *@brief Resolução do problema "Counting Rooms" do CSES.
+ *@link https://cses.fi/problemset/task/1192
+ *
+ *@details
+ *O problema pede para encontrar o numero de "rooms", ou seja o numero de componentes conexas do Grafo.
+ *Foi utilizada uma busca em largura (BFS) com uma queue.
+ */
 
 #include <iostream>
 #include <queue>
+
 
 
 struct coordinate {

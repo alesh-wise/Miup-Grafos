@@ -1,7 +1,15 @@
 //
-// Created by alexa on 20/09/2026.
+// Created by alesh-wise on 20/09/2026.
 //
-
+/**
+ *@file labyrinth.cpp
+ *@brief Resolução do problema "Labyrinth" do CSES.
+ *@link https://cses.fi/problemset/task/1193
+ *
+ *@details
+ *O problema pede para se possivel encontrar o caminho mais curto entre o ponto A e B.
+ *Foi utilizada uma busca em largura (BFS).
+ */
 
 #include <algorithm>
 #include <iostream>
