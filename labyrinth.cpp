@@ -16,6 +16,8 @@ class coordinate {
         this->x = x;
         this->y = y;
     }
+
+
     coordinate() {
         this->x = -1; this->y = -1;
     }
