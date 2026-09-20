@@ -6,3 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(countingRooms countingRooms.cpp)
 
 add_executable(labyrinth labyrinth.cpp)
+
+
+add_executable(buildingRoads  buildingRoads.cpp)
