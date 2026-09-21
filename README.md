@@ -16,5 +16,6 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Labyrinth](https://cses.fi/problemset/task/1193) | CSES | BFS, Caminho Mínimo | [`labyrinth.cpp`](./labyrinth.cpp) |
 | [Building Roads](https://cses.fi/problemset/task/1666/) | CSES | BFS, Grafo Conexo | [`buildingRoads.cpp`](./buildingRoads.cpp) | 
 | [Building Teams](https://cses.fi/problemset/result/18810287/) | CSES | BFS, Grafo Bipartido | [`buildingTeams.cpp`](./buildingTeams.cpp) |
+| [Round Trip](https://cses.fi/problemset/result/18812072/) | CSES | DFS, Grafo Ciclico | [`roundTrip.cpp`](./roundTrip.cpp) |  
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
