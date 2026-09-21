@@ -8,8 +8,10 @@ add_executable(countingRooms countingRooms.cpp)
 add_executable(labyrinth labyrinth.cpp)
 
 
-add_executable(buildingRoads  buildingRoads.cpp)
+add_executable(buildingRoads  buildingRoads.cpp
+        roundTrip.cpp)
 
 add_executable(messageRoute messageRoute.cpp)
 
 add_executable(buildingTeams buildingTeams.cpp)
+add_executable(roundTrip roundTrip.cpp)
