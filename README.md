@@ -19,5 +19,6 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Round Trip](https://cses.fi/problemset/result/18812072/) | CSES | DFS, Grafo Ciclico | [`roundTrip.cpp`](./roundTrip.cpp) |  
 | [Monsters](https://cses.fi/problemset/task/1194) | CSES | BFS | [`monsters.cpp`](./monsters.cpp) |
 | [Shortest Routes I](https://cses.fi/problemset/task/1671) | CSES | DIJKSTRA | [`shortestRoutes1.cpp`](./shortestRoute1.cpp) | 
+| [Shortest Routes II](https://cses.fi/problemset/result/18837199/) | CSES | Floyd-Warshall | [`shortestRouteII.cpp`](./shortestRouteII.cpp) |
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
