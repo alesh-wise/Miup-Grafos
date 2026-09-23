@@ -10,7 +10,7 @@
  *O problema pede para encontrar um ciclo em um grafo não direcionado. Se existir, deve-se imprimir o ciclo encontrado.
  */
 //
-// Created by alexa on 20/09/2026.
+// Created by alesh-wise on 20/09/2026.
 //
 
 

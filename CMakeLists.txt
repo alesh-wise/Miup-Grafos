@@ -15,3 +15,5 @@ add_executable(messageRoute messageRoute.cpp)
 
 add_executable(buildingTeams buildingTeams.cpp)
 add_executable(roundTrip roundTrip.cpp)
+add_executable(monsters monsters.cpp)
+add_executable(shortestRoute1 shortestRoute1.cpp)
