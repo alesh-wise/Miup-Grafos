@@ -21,5 +21,9 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Shortest Routes I](https://cses.fi/problemset/task/1671) | CSES | DIJKSTRA | [`shortestRoutes1.cpp`](./shortestRoute1.cpp) | 
 | [Shortest Routes II](https://cses.fi/problemset/result/18837199/) | CSES | Floyd-Warshall | [`shortestRouteII.cpp`](./shortestRouteII.cpp) |
 | [High Score](https://cses.fi/problemset/result/18844662/) | CSES | BellmanFord | [`highScore.cpp`](./highScore.cpp) |
+| [Flight Discount](https://cses.fi/problemset/task/1195) | CSES | DijkStra | [`flightDiscount.cpp`](./flightDiscount.cpp) | 
+| [Cycle Finding](https://cses.fi/problemset/task/1197) | CSES | BellmanFord | [`cycleFinding.cpp`](./cycleFinding.cpp) | 
+| [Flight Routes](https://cses.fi/problemset/task/1196) | CSES | DijkStra | [`flightRoutes.cpp`](./flightRoutes.cpp) | 
+| [Round Trip](https://cses.fi/problemset/task/1678) | CSES | DFS | [`roundTripII.cpp`](./roundTripII.cpp) | 
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
