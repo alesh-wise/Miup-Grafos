@@ -25,5 +25,6 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Cycle Finding](https://cses.fi/problemset/task/1197) | CSES | BellmanFord | [`cycleFinding.cpp`](./cycleFinding.cpp) | 
 | [Flight Routes](https://cses.fi/problemset/task/1196) | CSES | DijkStra | [`flightRoutes.cpp`](./flightRoutes.cpp) | 
 | [Round Trip](https://cses.fi/problemset/task/1678) | CSES | DFS | [`roundTripII.cpp`](./roundTripII.cpp) | 
+| [Course Schedule](https://cses.fi/problemset/result/18881437/) | CSES | Khan's, Ordenação Topologica | [`courseSchedule.cpp`](./courseSchedule.cpp) | 
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
