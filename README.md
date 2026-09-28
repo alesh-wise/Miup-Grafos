@@ -27,5 +27,8 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Round Trip](https://cses.fi/problemset/task/1678) | CSES | DFS | [`roundTripII.cpp`](./roundTripII.cpp) | 
 | [Course Schedule](https://cses.fi/problemset/result/18881437/) | CSES | Khan's, Ordenação Topologica | [`courseSchedule.cpp`](./courseSchedule.cpp) | 
 | [Longest Flight Route](https://cses.fi/problemset/result/18881896/) | CSES | Khan's | [`longestFlightRoute.cpp`](./longestFlightRoute.cpp) | 
+| [Game Routes](https://cses.fi/problemset/task/1681) | CSES | Khan's | [`gameRoutes.cpp`](./gameRoutes.cpp) | 
+| [Investigation](https://cses.fi/problemset/task/1202) | CSES | Dijkstra | [`investigation.cpp`](./investigation.cpp) | 
+| [Planets Queries I](https://cses.fi/problemset/task/1750) | CSES | Binary Lifting | [`planetsQueries.cpp`](./planetsQueries.cpp) |
  ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
