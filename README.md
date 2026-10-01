@@ -30,8 +30,8 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Game Routes](https://cses.fi/problemset/task/1681) | CSES | Khan's | [`gameRoutes.cpp`](./gameRoutes.cpp) | 
 | [Investigation](https://cses.fi/problemset/task/1202) | CSES | Dijkstra | [`investigation.cpp`](./investigation.cpp) | 
 | [Planets Queries I](https://cses.fi/problemset/task/1750) | CSES | Binary Lifting | [`planetsQueries.cpp`](./planetsQueries.cpp) |
-| [Planets Cycles](https://cses.fi/problemset/task/1751) | CSES | [`planetsCycle.cpp`](./planetsCycle.cpp) |
-| [Road Reparation](https://cses.fi/problemset/task/1675) | CSES | DSU, KRUSKAL [`roadSeparation.cpp`](./roadSeparation.cpp) |
-| [Road Construction](https://cses.fi/problemset/task/1676) | CSES | [`roadConstruction.cpp`](./roadConstruction) | 
+| [Planets Cycles](https://cses.fi/problemset/task/1751) | CSES | --- | [`planetsCycle.cpp`](./planetsCycle.cpp) |
+| [Road Reparation](https://cses.fi/problemset/task/1675) | CSES | DSU, KRUSKAL | [`roadSeparation.cpp`](./roadSeparation.cpp) |
+| [Road Construction](https://cses.fi/problemset/task/1676) | CSES | --- | [`roadConstruction.cpp`](./roadConstruction) | 
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
