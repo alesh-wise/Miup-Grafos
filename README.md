@@ -33,5 +33,7 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Planets Cycles](https://cses.fi/problemset/task/1751) | CSES | --- | [`planetsCycle.cpp`](./planetsCycle.cpp) |
 | [Road Reparation](https://cses.fi/problemset/task/1675) | CSES | DSU, KRUSKAL | [`roadSeparation.cpp`](./roadSeparation.cpp) |
 | [Road Construction](https://cses.fi/problemset/task/1676) | CSES | --- | [`roadConstruction.cpp`](./roadConstruction) | 
+| [Flight Routes Check](https://cses.fi/problemset/result/18967203/) | CSES | Kosaraju | [`flightRouteCheck.cpp`](./flightRouteCheck.cpp) | 
+| [Planets And Kingdoms](https://cses.fi/problemset/task/1683) | [`planetsAndKingdoms`](./planetsAndKingdoms.cpp) | 
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
