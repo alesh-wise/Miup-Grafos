@@ -35,5 +35,6 @@ O foco principal é a implementação eficiente em **C++** de algoritmos clássi
 | [Road Construction](https://cses.fi/problemset/task/1676) | CSES | --- | [`roadConstruction.cpp`](./roadConstruction) | 
 | [Flight Routes Check](https://cses.fi/problemset/result/18967203/) | CSES | Kosaraju | [`flightRouteCheck.cpp`](./flightRouteCheck.cpp) | 
 | [Planets And Kingdoms](https://cses.fi/problemset/task/1683) | CSES | Kosaraju | [`planetsAndKingdoms`](./planetsAndKingdoms.cpp) | 
+| [Giant Pizza](https://cses.fi/problemset/result/18974851/) | CSES | TWO-SAT | [`giantPizza`](./giantPizza.cpp) |
 ---
 *Desenvolvido em C++ para treino de Programação Competitiva.*
