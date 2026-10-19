@@ -6,7 +6,7 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 [![CSES](https://img.shields.io/badge/CSES-Graph%20Algorithms-ff6f00?style=for-the-badge)](https://cses.fi/problemset/)
-![Resolvidos](https://img.shields.io/badge/resolvidos-27-success?style=for-the-badge)
+![Resolvidos](https://img.shields.io/badge/resolvidos-28-success?style=for-the-badge)
 
 </div>
 
@@ -30,6 +30,7 @@ cabeçalho que descreve o problema, o algoritmo usado e a complexidade.
 | 🔗 **Componentes fortemente conexas** | Kosaraju, 2-SAT |
 | 🔁 **Grafos funcionais** | Binary Lifting, deteção de ciclos |
 | ✉️ **Caminhos especiais** | Circuito Euleriano (Hierholzer) |
+| 🤝 **Emparelhamentos** | Emparelhamento bipartido (algoritmo de Kuhn) |
 
 ---
 
@@ -96,6 +97,12 @@ cabeçalho que descreve o problema, o algoritmo usado e a complexidade.
 | :-: | :--- | :--- | :-: | :--- |
 | 26 | [Mail Delivery](https://cses.fi/problemset/task/1691) | Circuito Euleriano (Hierholzer) | `O(n+m)` | [`mailDelivery.cpp`](./mailDelivery.cpp) |
 | 27 | [Subordinates](https://cses.fi/problemset/task/1674) | DFS em árvore (tamanho da subárvore) | `O(n)` | [`subordinate.cpp`](./subordinate.cpp) |
+
+### 🤝 Emparelhamentos
+
+| # | Problema | Algoritmo | Complexidade | Código |
+| :-: | :--- | :--- | :-: | :--- |
+| 28 | [School Dance](https://cses.fi/problemset/task/1696) | Emparelhamento bipartido (algoritmo de Kuhn) | `O(n·m)` | [`schoolDance.cpp`](./schoolDance.cpp) |
 
 ---
 
