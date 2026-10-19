@@ -1,3 +1,15 @@
+/**
+ *@file longestFlightRoute.cpp
+ *@brief Resolução do problema "Longest Flight Route" do CSES.
+ *@link https://cses.fi/problemset/task/1680
+ *
+ *@details
+ *O problema pede a rota com o maior número de cidades de 1 até n num grafo acíclico (DAG).
+ *Algoritmo: Ordenação Topológica (Kahn) + DP de maior caminho — dist[v] = max(dist[u] + 1) seguindo a ordem
+ *topológica, guardando o parent para reconstruir o caminho.
+ *Complexidade: O(n + m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

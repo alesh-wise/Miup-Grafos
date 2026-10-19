@@ -1,3 +1,15 @@
+/**
+ *@file flightDiscount.cpp
+ *@brief Resolução do problema "Flight Discount" do CSES.
+ *@link https://cses.fi/problemset/task/1195
+ *
+ *@details
+ *O problema pede o custo mínimo de 1 até n podendo usar um cupão que corta para metade o preço de um voo.
+ *Algoritmo: Dijkstra sobre um grafo de estados (cidade, usou_cupão) — dist[v][0] sem cupão e dist[v][1] com cupão.
+ *A partir do estado 0 pode-se seguir normalmente ou gastar o cupão e passar para o estado 1.
+ *Complexidade: O((n + m) log n).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -8,6 +8,8 @@
  *
  *@details
  *O problema pede a distancia minima de um determinado ponto para todos os outros pontos do grafo.
+ *Algoritmo: Dijkstra com priority_queue (min-heap), ignorando entradas desatualizadas da fila.
+ *Complexidade: O((n + m) log n).
  */
 //
 // Created by alesh-wise on 20/09/2026.

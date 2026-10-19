@@ -1,3 +1,15 @@
+/**
+ *@file roundTripII.cpp
+ *@brief Resolução do problema "Round Trip II" do CSES.
+ *@link https://cses.fi/problemset/task/1678
+ *
+ *@details
+ *O problema pede para encontrar um ciclo num grafo dirigido e imprimi-lo.
+ *Algoritmo: DFS com marcação dos nós na pilha de recursão (inCall) — encontrar uma aresta para um nó
+ *que ainda está na pilha indica um ciclo, que é reconstruído com o vetor origem.
+ *Complexidade: O(n + m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

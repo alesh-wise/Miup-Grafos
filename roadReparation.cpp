@@ -1,3 +1,15 @@
+/**
+ *@file roadReparation.cpp
+ *@brief Resolução do problema "Road Reparation" do CSES.
+ *@link https://cses.fi/problemset/task/1675
+ *
+ *@details
+ *O problema pede o custo mínimo para reparar estradas de forma a que todas as cidades fiquem ligadas.
+ *Algoritmo: Árvore Geradora Mínima (MST) com Kruskal — ordenam-se as arestas por peso e usa-se uma
+ *DSU (Union-Find com path compression e union by rank) para juntar componentes sem criar ciclos.
+ *Complexidade: O(m log m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,16 @@
+/**
+ *@file flightRouteCheck.cpp
+ *@brief Resolução do problema "Flight Routes Check" do CSES.
+ *@link https://cses.fi/problemset/task/1682
+ *
+ *@details
+ *O problema pede para verificar se é possível viajar de qualquer cidade para qualquer outra (grafo fortemente conexo)
+ *e, caso não seja, indicar um par de cidades sem rota.
+ *Algoritmo: Kosaraju — DFS no grafo para obter a ordem de saída, seguida de DFS no grafo invertido
+ *por essa ordem; se houver mais de uma SCC, dois representantes de SCCs diferentes formam o par pedido.
+ *Complexidade: O(n + m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

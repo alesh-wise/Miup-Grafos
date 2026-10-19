@@ -1,3 +1,16 @@
+/**
+ *@file highScore.cpp
+ *@brief Resolução do problema "High Score" do CSES.
+ *@link https://cses.fi/problemset/task/1673
+ *
+ *@details
+ *O problema pede a pontuação máxima de 1 até n, ou -1 se a pontuação puder ser arbitrariamente grande.
+ *Algoritmo: Bellman-Ford com os pesos negados (maior caminho = menor caminho com pesos negativos).
+ *Após n-1 iterações, faz-se mais n iterações para propagar o valor -INF a todos os nós afetados
+ *por um ciclo negativo; se n for afetado, a resposta é -1.
+ *Complexidade: O(n·m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 const long long NINF = -1e17;

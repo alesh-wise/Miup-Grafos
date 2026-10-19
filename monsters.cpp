@@ -8,8 +8,9 @@
  *
  *@details
  *O problema pede para se possivel descobrir um caminho valido até um dos extremos da grid para o personagem A.
- *Para resolve foi usado dois BFS, um para calcular a distancia de cada ponto da grid até o monstro mais proximo e outro para calcular a distancia do personagem A até os extremos da grid.
- */ 
+ *Para resolver foram usados dois BFS (o primeiro multi-source a partir de todos os monstros), um para calcular a distancia de cada ponto da grid até o monstro mais proximo e outro para calcular a distancia do personagem A até os extremos da grid.
+ *Complexidade: O(n·m).
+ */
 //
 // Created by alesh-wise on 23/09/2026.
 //

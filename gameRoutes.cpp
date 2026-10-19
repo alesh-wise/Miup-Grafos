@@ -1,3 +1,14 @@
+/**
+ *@file gameRoutes.cpp
+ *@brief Resolução do problema "Game Routes" do CSES.
+ *@link https://cses.fi/problemset/task/1681
+ *
+ *@details
+ *O problema pede o número de caminhos distintos de 1 até n num DAG (mod 1e9+7).
+ *Algoritmo: Ordenação Topológica (Kahn) + DP de contagem — path[v] += path[u] para cada aresta u -> v.
+ *Complexidade: O(n + m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

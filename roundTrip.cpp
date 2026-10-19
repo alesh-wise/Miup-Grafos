@@ -8,6 +8,9 @@
  *
  *@details
  *O problema pede para encontrar um ciclo em um grafo não direcionado. Se existir, deve-se imprimir o ciclo encontrado.
+ *Algoritmo: DFS ignorando a aresta para o pai — encontrar um vizinho já visitado indica um ciclo (back edge),
+ *que é reconstruído com o vetor path.
+ *Complexidade: O(n + m).
  */
 //
 // Created by alesh-wise on 20/09/2026.

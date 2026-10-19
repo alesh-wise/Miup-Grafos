@@ -1,3 +1,16 @@
+/**
+ *@file planetsCycles.cpp
+ *@brief Resolução do problema "Planets Cycles" do CSES.
+ *@link https://cses.fi/problemset/task/1751
+ *
+ *@details
+ *O problema pede, para cada planeta, quantos teleportes são feitos até se repetir um planeta.
+ *Algoritmo: percorrer o grafo funcional (cada nó tem exatamente uma saída) guardando o trajeto atual;
+ *ao encontrar um nó já visitado no trajeto, identifica-se o ciclo (todos os seus nós têm resposta = tamanho do ciclo),
+ *e os nós da "cauda" recebem a resposta do nó seguinte + 1, preenchida de trás para a frente.
+ *Complexidade: O(n).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

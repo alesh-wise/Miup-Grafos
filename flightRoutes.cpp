@@ -1,3 +1,15 @@
+/**
+ *@file flightRoutes.cpp
+ *@brief Resolução do problema "Flight Routes" do CSES.
+ *@link https://cses.fi/problemset/task/1196
+ *
+ *@details
+ *O problema pede os k caminhos mais baratos de 1 até n (os caminhos podem repetir nós).
+ *Algoritmo: Dijkstra modificado (k-shortest paths) — cada nó guarda uma max-heap com os k menores custos
+ *encontrados até agora, e um novo custo só é propagado se entrar no top-k desse nó.
+ *Complexidade: O(k·m log(k·m)).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

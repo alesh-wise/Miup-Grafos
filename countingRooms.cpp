@@ -8,7 +8,8 @@
  *
  *@details
  *O problema pede para encontrar o numero de "rooms", ou seja o numero de componentes conexas do Grafo.
- *Foi utilizada uma busca em largura (BFS) com uma queue.
+ *Foi utilizada uma busca em largura (BFS) com uma queue (flood fill na grelha).
+ *Complexidade: O(n·m).
  */
 
 #include <iostream>

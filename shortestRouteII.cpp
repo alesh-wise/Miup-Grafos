@@ -2,13 +2,14 @@
 // Created by alesh-wise on 23/09/2026.
 //
 /**
- *@file shortestRoute1.cpp
+ *@file shortestRouteII.cpp
  *@brief Resolução do problema "Shortest Route II" do CSES.
  *@link https://cses.fi/problemset/result/18837199/
  *
  *@details
  *O problema pede a distancia minima entre diferentes trajetos, sendo necessario calcular o trajeto minimo de cada um dos pontos do grafo para todos os outros pontos.
- *Foi usado o algortimo de Fçoyd-Warshall.
+ *Foi usado o algoritmo de Floyd-Warshall (all-pairs shortest paths), usando cada nó como intermédio.
+ *Complexidade: O(n³) + O(1) por consulta.
  */
 //
 // Created by alesh-wise on 23/09/2026.

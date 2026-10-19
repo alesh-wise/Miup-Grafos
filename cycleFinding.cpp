@@ -1,3 +1,16 @@
+/**
+ *@file cycleFinding.cpp
+ *@brief Resolução do problema "Cycle Finding" do CSES.
+ *@link https://cses.fi/problemset/task/1197
+ *
+ *@details
+ *O problema pede para verificar se o grafo tem um ciclo de peso negativo e, se existir, imprimi-lo.
+ *Algoritmo: Bellman-Ford com todas as distâncias iniciadas a 0 (equivale a uma super-fonte ligada a todos os nós).
+ *Se na n-ésima iteração ainda houver relaxamento, existe ciclo negativo; recuar n vezes pelo parent garante
+ *que estamos dentro do ciclo, que depois é reconstruído seguindo os parents.
+ *Complexidade: O(n·m).
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

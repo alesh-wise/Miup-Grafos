@@ -8,6 +8,8 @@
  *
  *@details
  *O problema pede para se possivel descobrir a rota mais curta entre dois pontos.
+ *Algoritmo: BFS a partir do nó 1 (grafo não pesado), guardando o pai de cada nó para reconstruir o caminho.
+ *Complexidade: O(n + m).
  */
 //
 // Created by alesh-wise on 20/09/2026.

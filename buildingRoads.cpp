@@ -9,6 +9,7 @@
  *@details
  *O problema pede para descobrir o numero de arestas em falta para tornar o grafo atual, num grafo conexo e também quais são essas arestas
  *Foi utilizada uma busca em largura (BFS) para encontrar as diferentes componentes separadas do grafo e criar as arestas em falta.
+ *Complexidade: O(n + m).
  */
 
 

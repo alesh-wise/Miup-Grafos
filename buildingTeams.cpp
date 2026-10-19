@@ -2,12 +2,14 @@
 // Created by alesh-wise on 20/09/2026.
 //
 /**
- *@file messageRoute.cpp
+ *@file buildingTeams.cpp
  *@brief Resolução do problema "Building Teams" do CSES.
  *@link https://cses.fi/problemset/result/18810287/
  *
  *@details
- *O problema pede para verificar se o grafo, é um grafo bipartido
+ *O problema pede para verificar se o grafo é bipartido, dividindo os alunos em duas equipas sem amigos na mesma equipa.
+ *Algoritmo: BFS com 2-coloração — cada vizinho recebe a cor oposta; se dois vizinhos tiverem a mesma cor, é IMPOSSIBLE.
+ *Complexidade: O(n + m).
  */
 //
 // Created by alexa on 20/09/2026.

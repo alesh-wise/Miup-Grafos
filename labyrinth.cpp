@@ -8,7 +8,8 @@
  *
  *@details
  *O problema pede para se possivel encontrar o caminho mais curto entre o ponto A e B.
- *Foi utilizada uma busca em largura (BFS).
+ *Foi utilizada uma busca em largura (BFS) na grelha, guardando a origem de cada célula para reconstruir o caminho.
+ *Complexidade: O(n·m).
  */
 
 #include <algorithm>

@@ -1,3 +1,14 @@
+/**
+ *@file planetsQueriesI.cpp
+ *@brief Resolução do problema "Planets Queries I" do CSES.
+ *@link https://cses.fi/problemset/task/1750
+ *
+ *@details
+ *O problema pede, para cada consulta (x, k), o planeta onde se chega após k teleportes a partir de x.
+ *Algoritmo: Binary Lifting — up[i][v] é o nó alcançado após 2^i saltos, e k é decomposto nos seus bits.
+ *Complexidade: O(n log k) de pré-processamento e O(log k) por consulta.
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 int nMax = 30;
