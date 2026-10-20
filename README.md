@@ -6,7 +6,7 @@
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 [![CSES](https://img.shields.io/badge/CSES-Graph%20Algorithms-ff6f00?style=for-the-badge)](https://cses.fi/problemset/)
-![Resolvidos](https://img.shields.io/badge/resolvidos-28-success?style=for-the-badge)
+![Resolvidos](https://img.shields.io/badge/resolvidos-29-success?style=for-the-badge)
 
 </div>
 
@@ -31,6 +31,7 @@ cabeçalho que descreve o problema, o algoritmo usado e a complexidade.
 | 🔁 **Grafos funcionais** | Binary Lifting, deteção de ciclos |
 | ✉️ **Caminhos especiais** | Circuito Euleriano (Hierholzer) |
 | 🤝 **Emparelhamentos** | Emparelhamento bipartido (algoritmo de Kuhn) |
+| 🌊 **Fluxos** | Fluxo máximo (Edmonds-Karp), corte mínimo |
 
 ---
 
@@ -103,6 +104,12 @@ cabeçalho que descreve o problema, o algoritmo usado e a complexidade.
 | # | Problema | Algoritmo | Complexidade | Código |
 | :-: | :--- | :--- | :-: | :--- |
 | 28 | [School Dance](https://cses.fi/problemset/task/1696) | Emparelhamento bipartido (algoritmo de Kuhn) | `O(n·m)` | [`schoolDance.cpp`](./schoolDance.cpp) |
+
+### 🌊 Fluxos e Cortes
+
+| # | Problema | Algoritmo | Complexidade | Código |
+| :-: | :--- | :--- | :-: | :--- |
+| 29 | [Police Chase](https://cses.fi/problemset/task/1695) | Fluxo máximo (Edmonds-Karp) + corte mínimo | `O(n·(n+m))` | [`policeChase.cpp`](./policeChase.cpp) |
 
 ---
 
