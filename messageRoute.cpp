@@ -3,13 +3,13 @@
 //
 /**
  *@file messageRoute.cpp
- *@brief Resolução do problema "Message Route" do CSES.
+ *@brief Solution to the CSES problem "Message Route".
  *@link https://cses.fi/problemset/result/18805235/
  *
  *@details
- *O problema pede para se possivel descobrir a rota mais curta entre dois pontos.
- *Algoritmo: BFS a partir do nó 1 (grafo não pesado), guardando o pai de cada nó para reconstruir o caminho.
- *Complexidade: O(n + m).
+ *The problem asks to find, if possible, the shortest route between two points.
+ *Algorithm: BFS from node 1 (unweighted graph), storing the parent of each node to rebuild the path.
+ *Complexity: O(n + m).
  */
 //
 // Created by alesh-wise on 20/09/2026.

@@ -3,13 +3,13 @@
 //
 /**
  *@file countingRooms.cpp
- *@brief Resolução do problema "Counting Rooms" do CSES.
+ *@brief Solution to the CSES problem "Counting Rooms".
  *@link https://cses.fi/problemset/task/1192
  *
  *@details
- *O problema pede para encontrar o numero de "rooms", ou seja o numero de componentes conexas do Grafo.
- *Foi utilizada uma busca em largura (BFS) com uma queue (flood fill na grelha).
- *Complexidade: O(n·m).
+ *The problem asks for the number of "rooms", i.e. the number of connected components of the graph.
+ *A breadth-first search (BFS) with a queue is used (flood fill on the grid).
+ *Complexity: O(n·m).
  */
 
 #include <iostream>

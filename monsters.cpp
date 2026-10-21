@@ -3,13 +3,13 @@
 //
 /**
  *@file monsters.cpp
- *@brief Resolução do problema "Monsters" do CSES.
+ *@brief Solution to the CSES problem "Monsters".
  *@link https://cses.fi/problemset/task/1194
  *
  *@details
- *O problema pede para se possivel descobrir um caminho valido até um dos extremos da grid para o personagem A.
- *Para resolver foram usados dois BFS (o primeiro multi-source a partir de todos os monstros), um para calcular a distancia de cada ponto da grid até o monstro mais proximo e outro para calcular a distancia do personagem A até os extremos da grid.
- *Complexidade: O(n·m).
+ *The problem asks to find, if possible, a valid path for character A to one of the edges of the grid.
+ *Two BFS passes are used (the first one multi-source from all monsters): one computes the distance from each grid cell to the nearest monster, and the other computes the distance from character A to the edges of the grid.
+ *Complexity: O(n·m).
  */
 //
 // Created by alesh-wise on 23/09/2026.

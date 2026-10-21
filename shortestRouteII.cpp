@@ -3,13 +3,13 @@
 //
 /**
  *@file shortestRouteII.cpp
- *@brief Resolução do problema "Shortest Route II" do CSES.
+ *@brief Solution to the CSES problem "Shortest Route II".
  *@link https://cses.fi/problemset/result/18837199/
  *
  *@details
- *O problema pede a distancia minima entre diferentes trajetos, sendo necessario calcular o trajeto minimo de cada um dos pontos do grafo para todos os outros pontos.
- *Foi usado o algoritmo de Floyd-Warshall (all-pairs shortest paths), usando cada nó como intermédio.
- *Complexidade: O(n³) + O(1) por consulta.
+ *The problem asks for the minimum distance for several queries, so the shortest path from every point of the graph to every other point must be computed.
+ *The Floyd-Warshall algorithm (all-pairs shortest paths) is used, taking each node as an intermediate.
+ *Complexity: O(n³) + O(1) per query.
  */
 //
 // Created by alesh-wise on 23/09/2026.

@@ -1,14 +1,14 @@
 /**
  *@file highScore.cpp
- *@brief Resolução do problema "High Score" do CSES.
+ *@brief Solution to the CSES problem "High Score".
  *@link https://cses.fi/problemset/task/1673
  *
  *@details
- *O problema pede a pontuação máxima de 1 até n, ou -1 se a pontuação puder ser arbitrariamente grande.
- *Algoritmo: Bellman-Ford com os pesos negados (maior caminho = menor caminho com pesos negativos).
- *Após n-1 iterações, faz-se mais n iterações para propagar o valor -INF a todos os nós afetados
- *por um ciclo negativo; se n for afetado, a resposta é -1.
- *Complexidade: O(n·m).
+ *The problem asks for the maximum score from 1 to n, or -1 if the score can be arbitrarily large.
+ *Algorithm: Bellman-Ford with negated weights (longest path = shortest path with negative weights).
+ *After n-1 iterations, another n iterations are run to propagate -INF to every node affected
+ *by a negative cycle; if n is affected, the answer is -1.
+ *Complexity: O(n·m).
  */
 
 #include <bits/stdc++.h>

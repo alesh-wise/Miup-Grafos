@@ -3,13 +3,13 @@
 //
 /**
  *@file labyrinth.cpp
- *@brief Resolução do problema "Labyrinth" do CSES.
+ *@brief Solution to the CSES problem "Labyrinth".
  *@link https://cses.fi/problemset/task/1193
  *
  *@details
- *O problema pede para se possivel encontrar o caminho mais curto entre o ponto A e B.
- *Foi utilizada uma busca em largura (BFS) na grelha, guardando a origem de cada célula para reconstruir o caminho.
- *Complexidade: O(n·m).
+ *The problem asks to find, if possible, the shortest path between points A and B.
+ *A breadth-first search (BFS) is used on the grid, storing the origin of each cell to rebuild the path.
+ *Complexity: O(n·m).
  */
 
 #include <algorithm>
@@ -36,10 +36,10 @@ static coordinate movimentos[] = {{1,0},{0,1},{-1,0},{0,-1}};
 int main() {
     int n,m;
     std::cin >> n >> m;
-    char matriz[n][m]; /*representa o mapa*/
-    char movimentosL[n][m]; /* movimentos com L,R,D,U*/
-    coordinate origem[n][m]; /*guarda a coordenada de origem do ponto atual para conseguir criar o caminho de volta*/
-    int dist[n][m]; /*distancia acumulada de cada ponto*/
+    char matriz[n][m]; /*represents the map*/
+    char movimentosL[n][m]; /* moves as L,R,D,U*/
+    coordinate origem[n][m]; /*stores the origin coordinate of the current point so the path can be rebuilt backwards*/
+    int dist[n][m]; /*accumulated distance of each point*/
     bool vis[n][m];
     std::queue<coordinate> q;
     coordinate start(-1,-1),finish(-1,-1);

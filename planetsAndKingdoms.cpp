@@ -1,12 +1,12 @@
 /**
  *@file planetsAndKingdoms.cpp
- *@brief Resolução do problema "Planets and Kingdoms" do CSES.
+ *@brief Solution to the CSES problem "Planets and Kingdoms".
  *@link https://cses.fi/problemset/task/1683
  *
  *@details
- *O problema pede para dividir os planetas em reinos, onde cada reino é uma componente fortemente conexa.
- *Algoritmo: Kosaraju — DFS para a ordem de saída e DFS no grafo invertido para etiquetar cada SCC.
- *Complexidade: O(n + m).
+ *The problem asks to split the planets into kingdoms, where each kingdom is a strongly connected component.
+ *Algorithm: Kosaraju — DFS for the exit order and DFS on the reversed graph to label each SCC.
+ *Complexity: O(n + m).
  */
 
 #include <bits/stdc++.h>

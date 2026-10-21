@@ -1,14 +1,14 @@
 /**
  *@file giantPizza.cpp
- *@brief Resolução do problema "Giant Pizza" do CSES.
+ *@brief Solution to the CSES problem "Giant Pizza".
  *@link https://cses.fi/problemset/task/1684
  *
  *@details
- *O problema pede para escolher os toppings de forma a que cada pessoa tenha pelo menos um desejo satisfeito.
- *Algoritmo: 2-SAT — cada desejo (a ∨ b) gera as implicações ¬a -> b e ¬b -> a; as SCCs do grafo de
- *implicações são calculadas com Kosaraju. É impossível se x e ¬x estiverem na mesma SCC; caso contrário,
- *a atribuição é escolhida comparando a ordem topológica das SCCs de x e ¬x.
- *Complexidade: O(n + m).
+ *The problem asks to choose the toppings so that every person has at least one wish satisfied.
+ *Algorithm: 2-SAT — each wish (a ∨ b) produces the implications ¬a -> b and ¬b -> a; the SCCs of the
+ *implication graph are computed with Kosaraju. It is impossible if x and ¬x are in the same SCC; otherwise,
+ *the assignment is chosen by comparing the topological order of the SCCs of x and ¬x.
+ *Complexity: O(n + m).
  */
 
 #include <bits/stdc++.h>

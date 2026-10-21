@@ -1,14 +1,14 @@
 /**
  *@file investigation.cpp
- *@brief Resolução do problema "Investigation" do CSES.
+ *@brief Solution to the CSES problem "Investigation".
  *@link https://cses.fi/problemset/task/1202
  *
  *@details
- *O problema pede, para o caminho mínimo de 1 até n: o seu custo, o número de caminhos mínimos (mod 1e9+7),
- *e o número mínimo e máximo de voos entre os caminhos mínimos.
- *Algoritmo: Dijkstra com DP — ao encontrar uma distância menor reinicia-se a contagem/min/max do nó,
- *e ao encontrar uma distância igual acumula-se o número de rotas e atualiza-se o min/max de voos.
- *Complexidade: O((n + m) log n).
+ *The problem asks, for the shortest path from 1 to n: its cost, the number of shortest paths (mod 1e9+7),
+ *and the minimum and maximum number of flights among the shortest paths.
+ *Algorithm: Dijkstra with DP — when a smaller distance is found, the node's count/min/max are reset,
+ *and when an equal distance is found, the route count is accumulated and the min/max flights are updated.
+ *Complexity: O((n + m) log n).
  */
 
 #include <bits/stdc++.h>

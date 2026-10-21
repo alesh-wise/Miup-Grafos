@@ -1,13 +1,13 @@
 /**
  *@file courseSchedule.cpp
- *@brief Resolução do problema "Course Schedule" do CSES.
+ *@brief Solution to the CSES problem "Course Schedule".
  *@link https://cses.fi/problemset/task/1679
  *
  *@details
- *O problema pede uma ordem válida para fazer os cursos respeitando os pré-requisitos.
- *Algoritmo: Ordenação Topológica com o algoritmo de Kahn — começa pelos nós com grau de entrada 0
- *e vai removendo arestas; se no fim nem todos os nós foram processados, há um ciclo (IMPOSSIBLE).
- *Complexidade: O(n + m).
+ *The problem asks for a valid order to take the courses while respecting the prerequisites.
+ *Algorithm: Topological Sort with Kahn's algorithm — starts from the nodes with in-degree 0
+ *and keeps removing edges; if not all nodes were processed at the end, there is a cycle (IMPOSSIBLE).
+ *Complexity: O(n + m).
  */
 
 #include <bits/stdc++.h>

@@ -1,13 +1,13 @@
 /**
  *@file roadConstruction.cpp
- *@brief Resolução do problema "Road Construction" do CSES.
+ *@brief Solution to the CSES problem "Road Construction".
  *@link https://cses.fi/problemset/task/1676
  *
  *@details
- *O problema pede, após cada nova estrada, o número de componentes e o tamanho da maior componente.
- *Algoritmo: DSU (Union-Find) com path compression e union by rank, mantendo o tamanho de cada
- *componente e o máximo global a cada união.
- *Complexidade: O(m·α(n)).
+ *The problem asks, after each new road, for the number of components and the size of the largest component.
+ *Algorithm: DSU (Union-Find) with path compression and union by rank, keeping the size of each
+ *component and the global maximum on every union.
+ *Complexity: O(m·α(n)).
  */
 
 #include <bits/stdc++.h>

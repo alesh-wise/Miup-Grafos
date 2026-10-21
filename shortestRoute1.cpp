@@ -3,13 +3,13 @@
 //
 /**
  *@file shortestRoute1.cpp
- *@brief Resolução do problema "Shortest Route I" do CSES.
+ *@brief Solution to the CSES problem "Shortest Route I".
  *@link https://cses.fi/problemset/task/1671
  *
  *@details
- *O problema pede a distancia minima de um determinado ponto para todos os outros pontos do grafo.
- *Algoritmo: Dijkstra com priority_queue (min-heap), ignorando entradas desatualizadas da fila.
- *Complexidade: O((n + m) log n).
+ *The problem asks for the minimum distance from a given point to every other point in the graph.
+ *Algorithm: Dijkstra with a priority_queue (min-heap), skipping stale queue entries.
+ *Complexity: O((n + m) log n).
  */
 //
 // Created by alesh-wise on 20/09/2026.

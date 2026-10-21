@@ -1,13 +1,13 @@
 /**
  *@file mailDelivery.cpp
- *@brief Resolução do problema "Mail Delivery" do CSES.
+ *@brief Solution to the CSES problem "Mail Delivery".
  *@link https://cses.fi/problemset/task/1691
  *
  *@details
- *O problema pede um circuito que comece e acabe na cidade 1 e passe por cada rua exatamente uma vez.
- *Algoritmo: Circuito Euleriano com o algoritmo de Hierholzer (versão iterativa com pilha).
- *É impossível se algum nó tiver grau ímpar ou se nem todas as arestas forem alcançáveis a partir de 1.
- *Complexidade: O(n + m).
+ *The problem asks for a circuit that starts and ends at city 1 and goes through every street exactly once.
+ *Algorithm: Eulerian circuit with Hierholzer's algorithm (iterative version with a stack).
+ *It is impossible if any node has odd degree or if not all edges are reachable from 1.
+ *Complexity: O(n + m).
  */
 
 #include <bits/stdc++.h>

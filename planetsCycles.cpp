@@ -1,14 +1,14 @@
 /**
  *@file planetsCycles.cpp
- *@brief Resolução do problema "Planets Cycles" do CSES.
+ *@brief Solution to the CSES problem "Planets Cycles".
  *@link https://cses.fi/problemset/task/1751
  *
  *@details
- *O problema pede, para cada planeta, quantos teleportes são feitos até se repetir um planeta.
- *Algoritmo: percorrer o grafo funcional (cada nó tem exatamente uma saída) guardando o trajeto atual;
- *ao encontrar um nó já visitado no trajeto, identifica-se o ciclo (todos os seus nós têm resposta = tamanho do ciclo),
- *e os nós da "cauda" recebem a resposta do nó seguinte + 1, preenchida de trás para a frente.
- *Complexidade: O(n).
+ *The problem asks, for each planet, how many teleports are made until a planet repeats.
+ *Algorithm: walk the functional graph (each node has exactly one outgoing edge) while storing the current path;
+ *when a node already on the path is found, the cycle is identified (all its nodes have answer = cycle length),
+ *and the "tail" nodes get the answer of the next node + 1, filled in from back to front.
+ *Complexity: O(n).
  */
 
 #include <bits/stdc++.h>

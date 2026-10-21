@@ -1,15 +1,15 @@
 /**
  *@file policeChase.cpp
- *@brief Resolução do problema "Police Chase" do CSES.
+ *@brief Solution to the CSES problem "Police Chase".
  *@link https://cses.fi/problemset/task/1695
  *
  *@details
- *O problema pede o menor número de ruas a fechar para que não exista caminho entre o cruzamento 1 e o n.
- *Isto é um corte mínimo (min-cut): pelo teorema Max-Flow Min-Cut, o seu valor é igual ao fluxo máximo
- *de 1 para n com capacidade 1 em cada rua (nos dois sentidos, porque as ruas são não dirigidas).
- *Algoritmo: Edmonds-Karp (BFS para caminhos de aumento). No fim, faz-se uma BFS no grafo residual a partir de 1;
- *as ruas que ligam um nó alcançável a um não alcançável são exatamente as ruas do corte.
- *Complexidade: O(n·(n+m)) — o fluxo máximo é no máximo n-1 e cada BFS custa O(n+m).
+ *The problem asks for the minimum number of streets to close so that there is no path between crossing 1 and n.
+ *This is a minimum cut (min-cut): by the Max-Flow Min-Cut theorem, its value equals the maximum flow
+ *from 1 to n with capacity 1 on each street (in both directions, since the streets are undirected).
+ *Algorithm: Edmonds-Karp (BFS for augmenting paths). At the end, a BFS is run on the residual graph from 1;
+ *the streets connecting a reachable node to an unreachable one are exactly the cut streets.
+ *Complexity: O(n·(n+m)) — the max flow is at most n-1 and each BFS costs O(n+m).
  */
 
 #include <bits/stdc++.h>
@@ -65,7 +65,7 @@ int main()
         cap[b][a] = 1;
     }
 
-    // Cada caminho de aumento tem gargalo 1 (todas as capacidades são 0/1/2)
+    // Every augmenting path has bottleneck 1 (all capacities are 0/1/2)
     while (bfs())
     {
         for (int v = n; v != 1; v = pai[v])
@@ -76,7 +76,7 @@ int main()
         }
     }
 
-    // Após o fluxo máximo, pai[v] != -1 indica que v é alcançável a partir de 1 no grafo residual
+    // After the max flow, pai[v] != -1 means v is reachable from 1 in the residual graph
     vector<pair<int, int>> corte;
     for (auto [a, b] : ruas)
     {

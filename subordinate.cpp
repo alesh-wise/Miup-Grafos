@@ -1,12 +1,12 @@
 /**
  *@file subordinate.cpp
- *@brief Resolução do problema "Subordinates" do CSES.
+ *@brief Solution to the CSES problem "Subordinates".
  *@link https://cses.fi/problemset/task/1674
  *
  *@details
- *O problema pede o número de subordinados (diretos e indiretos) de cada funcionário.
- *Algoritmo: DFS na árvore a partir da raiz (1) — o tamanho da subárvore de cada nó menos 1.
- *Complexidade: O(n).
+ *The problem asks for the number of subordinates (direct and indirect) of each employee.
+ *Algorithm: DFS on the tree from the root (1) — each node's subtree size minus 1.
+ *Complexity: O(n).
  */
 
 #include <bits/stdc++.h>

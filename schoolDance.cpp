@@ -1,14 +1,14 @@
 /**
  *@file schoolDance.cpp
- *@brief Resolução do problema "School Dance" do CSES.
+ *@brief Solution to the CSES problem "School Dance".
  *@link https://cses.fi/problemset/task/1696
  *
  *@details
- *O problema pede o maior conjunto de pares (rapaz, rapariga) tal que cada pessoa dance no máximo uma vez,
- *dado um conjunto de pares compatíveis.
- *Algoritmo: Emparelhamento Bipartido (algoritmo de Kuhn) — para cada rapaz, tenta-se encontrar uma rapariga
- *livre através de caminhos de aumento (augmenting paths), remarcando emparelhamentos já feitos quando necessário.
- *Complexidade: O(n·m) no pior caso (n raparigas, m arestas).
+ *The problem asks for the largest set of (boy, girl) pairs such that each person dances at most once,
+ *given a set of compatible pairs.
+ *Algorithm: Bipartite Matching (Kuhn's algorithm) — for each boy, try to find a free girl
+ *through augmenting paths, reassigning existing matches when needed.
+ *Complexity: O(n·m) in the worst case (n girls, m edges).
  */
 
 #include <bits/stdc++.h>

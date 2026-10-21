@@ -3,14 +3,14 @@
 //
 /**
  *@file roundTrip.cpp
- *@brief Resolução do problema "Round Trip" do CSES.
+ *@brief Solution to the CSES problem "Round Trip".
  *@link https://cses.fi/problemset/result/18812072/
  *
  *@details
- *O problema pede para encontrar um ciclo em um grafo não direcionado. Se existir, deve-se imprimir o ciclo encontrado.
- *Algoritmo: DFS ignorando a aresta para o pai — encontrar um vizinho já visitado indica um ciclo (back edge),
- *que é reconstruído com o vetor path.
- *Complexidade: O(n + m).
+ *The problem asks to find a cycle in an undirected graph. If one exists, it must be printed.
+ *Algorithm: DFS ignoring the edge to the parent — finding an already visited neighbor means a cycle (back edge),
+ *which is rebuilt using the path vector.
+ *Complexity: O(n + m).
  */
 //
 // Created by alesh-wise on 20/09/2026.

@@ -3,13 +3,13 @@
 //
 /**
  *@file buildingRoads.cpp
- *@brief Resolução do problema "Building Roads" do CSES.
+ *@brief Solution to the CSES problem "Building Roads".
  *@link https://cses.fi/problemset/result/18802671/
  *
  *@details
- *O problema pede para descobrir o numero de arestas em falta para tornar o grafo atual, num grafo conexo e também quais são essas arestas
- *Foi utilizada uma busca em largura (BFS) para encontrar as diferentes componentes separadas do grafo e criar as arestas em falta.
- *Complexidade: O(n + m).
+ *The problem asks for the number of missing edges needed to make the current graph connected, and which edges those are.
+ *A breadth-first search (BFS) is used to find the separate components of the graph and create the missing edges.
+ *Complexity: O(n + m).
  */
 
 
